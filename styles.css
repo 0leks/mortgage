@@ -1,0 +1,67 @@
+body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: lightgray;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 1em;
+}
+
+input {
+    font-size:x-large;
+}
+
+#above-vis {
+    border: 1px solid darkgray;
+}
+
+#controls-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size:x-large;
+    gap: 1em;
+}
+
+.dataVizContainer {
+    flex-grow: 1;
+}
+
+.dataVizContainer svg {
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border: 1px solid darkgray;
+}
+
+.axis {
+    font-size: large;
+}
+
+.grid .tick {
+    opacity: .2;
+}
+
+.legend {
+    border: 1px solid green;
+}
+
+.principal-payment-rect {
+    stroke: none;
+    fill: darkgreen;
+}
+.principal-payment-rect-hovered {
+    fill: white;
+}
+
+.interest-payment-rect {
+    stroke: none;
+    fill: darkorange;
+}
+.interest-payment-rect-hovered {
+    fill: green;
+}
