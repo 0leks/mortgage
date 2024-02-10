@@ -28,6 +28,10 @@ input {
     gap: 1em;
 }
 
+.legendText {
+    font-size: x-large;
+}
+
 .dataVizContainer {
     flex-grow: 1;
 }
